@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Wissale Kadaoui</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="mesh-bg"></div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="favicon.svg" alt="" width="34" height="34"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="veille.html">Veille</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="contact-section contact-centered">
+
+    <div class="contact-hero fade-in">
+      <div class="contact-hero-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="38" height="38"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </div>
+      <span class="section-tag">Contact</span>
+      <h2>Discutons ensemble</h2>
+      <p>Une question, un projet, une opportunité ?<br>Je serai ravie de vous lire.</p>
+
+      <a id="contact-email-link" class="contact-email-card fade-in delay-1" href="#">
+        <span class="email-label">Mon adresse e-mail</span>
+        <span class="email-address" id="contact-email-display"></span>
+        <noscript><span class="email-address">kadaouiwissale&#51;&#50;&#64;gmail&#46;com</span></noscript>
+        <span class="email-cta">
+          Envoyer un message
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> – Wissale Kadaoui · Portfolio BTS SIO SISR</p>
+    <div class="footer-links">
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
