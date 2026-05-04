@@ -30,3 +30,18 @@ document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 document.querySelectorAll('[id^="year"]').forEach(el => {
   el.textContent = new Date().getFullYear();
 });
+
+// ── LEGAL BANNER ─────────────────────────────
+const legalBanner = document.getElementById('legal-banner');
+const acceptBtn = document.getElementById('accept-legal');
+
+if (legalBanner && acceptBtn) {
+  // Always show banner for testing
+  legalBanner.style.display = 'block';
+
+  acceptBtn.addEventListener('click', () => {
+    localStorage.setItem('legalAccepted', 'true');
+    legalBanner.style.display = 'none';
+  });
+}
+
