@@ -501,6 +501,31 @@ body::after {
 
 .about-info-card p { color: var(--muted); font-size: 0.9rem; }
 
+/* ── LEGAL PAGE ──────────────────────────── */
+.legal-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 80px 48px;
+}
+
+.legal-content h2 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  margin-bottom: 20px;
+}
+
+.legal-content h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.legal-content p {
+  color: var(--muted);
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
 /* ── PARCOURS PAGE ──────────────────────────── */
 .parcours-container {
   max-width: 1140px;
@@ -1164,3 +1189,53 @@ footer p {
 
 /* ── BADGE CURSOR ───────────────────────────── */
 .badge { cursor: pointer; }
+
+/* ── LEGAL BANNER ───────────────────────────── */
+.legal-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  padding: 16px;
+  z-index: 1000;
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.1);
+  display: none; /* Hidden by default, shown by JS */
+}
+
+.banner-content {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.banner-content p {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.banner-content a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+#accept-legal {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+#accept-legal:hover {
+  background: var(--primary-dark);
+}
