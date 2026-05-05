@@ -1,3 +1,28 @@
+.veille-summary {
+  margin-bottom: 40px;
+}
+
+.veille-summary-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  border: 1px solid rgba(180,142,207,0.18);
+  box-shadow: var(--shadow-sm);
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.veille-summary-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.veille-summary-card p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
 .veille-auto-section {
   margin-top: 56px;
   padding-top: 40px;
