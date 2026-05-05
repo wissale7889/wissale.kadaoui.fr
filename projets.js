@@ -123,6 +123,46 @@ const skills = {
     icon: "🔄",
     desc: "L'automatisation de flux consiste à déclencher des actions automatiquement (envoi de mail, mise à jour de données, notifications) en réponse à des événements, sans intervention humaine.",
     tags: ["Power Automate", "Efficacité", "Workflow"]
+  },
+  "Segmentation réseau": {
+    icon: "🔀",
+    desc: "La segmentation réseau consiste à diviser un réseau en sous-réseaux isolés pour améliorer la sécurité, les performances et la gestion. Cela permet de limiter la propagation des attaques et d'optimiser le trafic.",
+    tags: ["VLAN", "Sous-réseaux", "Isolation"]
+  },
+  "Pare-feu & filtrage": {
+    icon: "🛡️",
+    desc: "Le pare-feu et le filtrage de trafic consistent à analyser et contrôler les paquets réseau entrants et sortants selon des règles définies. Cela protège l'infrastructure contre les menaces externes et internes.",
+    tags: ["ACL", "Sécurité", "Filtrage"]
+  },
+  "Administration système": {
+    icon: "⚙️",
+    desc: "L'administration système englobe la gestion et la maintenance des serveurs et systèmes d'exploitation. Cela inclut l'installation, la configuration, la surveillance et la résolution d'incidents pour assurer la disponibilité des services.",
+    tags: ["Serveurs", "Maintenance", "Monitoring"]
+  },
+  "Gestion des accès": {
+    icon: "🔑",
+    desc: "La gestion des accès contrôle qui peut accéder à quelles ressources dans un système. Elle repose sur des principes comme le moindre privilège et l'authentification multi-facteurs pour sécuriser les données sensibles.",
+    tags: ["RBAC", "Authentification", "Sécurité"]
+  },
+  "Conteneurisation": {
+    icon: "📦",
+    desc: "La conteneurisation permet d'emballer une application et ses dépendances dans un conteneur léger et portable. Cela facilite le déploiement, la scalabilité et l'isolation des applications sur différents environnements.",
+    tags: ["Docker", "Isolation", "Déploiement"]
+  },
+  "Déploiement de services web": {
+    icon: "🌐",
+    desc: "Le déploiement de services web consiste à rendre une application accessible via Internet ou un réseau interne. Cela inclut la configuration des serveurs web, la gestion des certificats et l'optimisation des performances.",
+    tags: ["Nginx", "Apache", "HTTPS"]
+  },
+  "Active Directory & GPO": {
+    icon: "🗂️",
+    desc: "Active Directory est l'annuaire de Microsoft pour gérer utilisateurs et ordinateurs. Les GPO (Group Policy Objects) appliquent des politiques de sécurité et de configuration à l'échelle du domaine.",
+    tags: ["Annuaire", "Politiques", "Domaine"]
+  },
+  "Sécurisation réseau": {
+    icon: "🔒",
+    desc: "La sécurisation réseau englobe toutes les mesures pour protéger l'infrastructure contre les cyberattaques : chiffrement, segmentation, surveillance et réponse aux incidents.",
+    tags: ["Chiffrement", "Monitoring", "Incident response"]
   }
 };
 
