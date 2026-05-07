@@ -1,0 +1,27 @@
+.competence-badge {
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, transform 0.15s;
+}
+
+.competence-badge:hover {
+  background: var(--primary-dark);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.competence-section-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+  margin-top: 14px;
+}
+
+.projet-card .btn { margin-top: 18px; }
+
+.text-note {
+  font-size: 0.85em;
+  color: var(--muted);
+}
